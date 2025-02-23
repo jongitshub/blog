@@ -2,17 +2,15 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-import dotenv from 'dotenv'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-dotenv.config()
 
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  apiKey: "AIzaSyDNWYEVXeoA9O_xzLqOHFeN_35e4bQZERw",
   authDomain: "blog-349d0.firebaseapp.com",
   projectId: "blog-349d0",
   storageBucket: "blog-349d0.firebasestorage.app",
